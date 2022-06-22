@@ -13,9 +13,9 @@ public class Bird {
     private String enName;
     private String family;
     private int size;
-    private Boolean[] habitats;
+    private boolean[] habitats;
 
-    public Bird(int id, String sciName, String ptName, String enName, String family, int size, Boolean[] habitats){
+    public Bird(int id, String sciName, String ptName, String enName, String family, int size, boolean[] habitats){
     this.id = id;
     this.sciName = sciName;
     this.ptName = ptName;
@@ -23,5 +23,8 @@ public class Bird {
     this.family = family;
     this.size = size;
     this.habitats = habitats;
+    }
+    public String toString(){
+        return String.format("%s %s", sciName, ptName);
     }
 }
