@@ -29,11 +29,15 @@ public class FontanaApp{
         return catalog;
     }
     public static Bird createBird(String[] attributes){
-        int id = Integer.parseInt(attributes[0], 10);
-        int size = Integer.parseInt(attributes[5], 10);
+        int id = Integer.parseInt(attributes[0]);
+        int size = Integer.parseInt(attributes[5]);
         Boolean[] habitats = new Boolean[6];
-        for(int i = 0; i < 6; i++)
-            habitats[i] = attributes[i+6] == "1" ? habitats[i] = true : false;
+        for(int i = 0; i < 6; i++){
+            if (attributes[i+6] == "1")
+            habitats[i] = true;
+            else habitats[i] = false;
+        }
+            //habitats[i] = attributes[i+6] == "1" ? habitats[i] = true : false;
         return new Bird(id, attributes[1], attributes[2], attributes[3], attributes[4], size, habitats);
     }
 }               
