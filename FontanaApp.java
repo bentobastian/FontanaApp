@@ -13,8 +13,9 @@ import java.util.Arrays;
 public class FontanaApp{
     public static void main(String[] args) throws IOException{
         Bird[] catalog = createCatalog();
-        //for(int i = 0; i < 188; i++)
-        //    System.out.println(catalog[i]);
+        for(int i = 0; i < 188; i++)
+            if(catalog[i] != null) 
+                System.out.println(catalog[i]);
     }
     public static Bird[] createCatalog() throws IOException{
         Bird[] catalog = new Bird[188];
@@ -35,7 +36,11 @@ public class FontanaApp{
         int size = Integer.parseInt(attributes[5]);
         boolean[] habitats = new boolean[6];
         for(int i = 0; i < 6; i++)
-            habitats[i] = attributes[i+6] == "1" ? habitats[i] = true : false;
+            habitats[i] = attributes[i+6].equals( "1" )?  true : false;
         return new Bird(id, attributes[1], attributes[2], attributes[3], attributes[4], size, habitats);
+    }
+    public static void searchHabitat(String line){
+        String[] habitatNum = line.split(",");
+        
     }
 }               

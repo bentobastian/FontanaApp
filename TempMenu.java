@@ -28,6 +28,11 @@ public class TempMenu{
                 case 1:
                     System.out.println("Consulta ao catalogo...");
                     System.out.println("\t1 - pelo nome, cor ou habitat da ave");
+                    /*
+                     * habitats: campo seco baixo (0), campo seco alto campo “sujo” (1), campo alagado, campo úmido, várzeas alagadas(2)
+                     * campo com árores, arbustos ou arvoretas(3),banhado com espelho d’água(4), 
+                     * banhado com vegetação alta, em geral palha ou gravatá, sem espelho d`água(5);
+                    */
                     System.out.println("\t2 - pela pagina, linha e coluna");
                     searchMethod = sc.nextInt();
 
@@ -45,7 +50,14 @@ public class TempMenu{
                                     color = sc.nextInt();
                                     break;
                                 case 3:
-                                    System.out.print("\tDigite o habitat:");
+                                    System.out.println("\tDigite o habitat:");
+                                    System.out.println("\tCampo seco baixo (1)");
+                                    System.out.println("\tCampo seco alto campo “sujo” (2)");
+                                    System.out.println("\tCampo alagado, campo úmido, várzeas alagadas(3)");
+                                    System.out.println("\tCampo com árores, arbustos ou arvoretas(4)");
+                                    System.out.println("\tbanhado com espelho d’água(5)");
+                                    System.out.println("\tbanhado com vegetação alta, em geral palha ou gravatá, sem espelho d`água(6)");
+
                                     habitat = sc.nextInt();
                                     break;
                             }
@@ -57,7 +69,7 @@ public class TempMenu{
                             line = sc.nextInt();
                             System.out.println("\tDigite a coluna:");
                             column = sc.nextInt();
-                            System.out.println();	//a linha do catálogo);
+                            System.out.println();    //a linha do catálogo);
 
                             //Nao sei oq colocar para ler linhas do catalogo.
                             //Lembrando q o programa tem q ter essas 2 formas de pesquisa:

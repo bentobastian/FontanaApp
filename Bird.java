@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 /**
  * Write a description of class Bird here.
@@ -16,15 +17,16 @@ public class Bird {
     private boolean[] habitats;
 
     public Bird(int id, String sciName, String ptName, String enName, String family, int size, boolean[] habitats){
-    this.id = id;
-    this.sciName = sciName;
-    this.ptName = ptName;
-    this.enName = enName;
-    this.family = family;
-    this.size = size;
-    this.habitats = habitats;
+        this.id = id;
+        this.sciName = sciName;
+        this.ptName = ptName;
+        this.enName = enName;
+        this.family = family;
+        this.size = size;
+        this.habitats = habitats;
     }
+
     public String toString(){
-        return String.format("%s %s", sciName, ptName);
+        return String.format("%s %s %s", habitats, ptName, Arrays.toString(habitats));
     }
 }
