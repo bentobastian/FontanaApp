@@ -18,7 +18,7 @@ public class TempMenu{
 
             System.out.println("\n\t  Bem-vindo ao FontanaApp");
             System.out.println("\t---------------------------");
-            System.out.println("\t1 - Consulta ao catalogo");
+            System.out.println("\t1 - Consulta ao catálogo");
             System.out.println("\t2 - Adicionar anotacao");
             System.out.println("\t3 - Consultar anotacao");
             System.out.println("\t4 - Sair");
