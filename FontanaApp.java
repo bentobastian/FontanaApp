@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 /**
- * FontanaApp eh um app criado para estudar objetos e rotinas em Java para aula de Fundamentos de Programcao.
+ * FontanaApp e um app criado para estudar objetos e rotinas em Java para aula de Fundamentos de Programcao.
  * Consiste em um programa que le um catalogo de aves e faz anotacoes para a ornitologia (estudo das aves).
  *
  * @author bento.bastian@edu.pucrs.br

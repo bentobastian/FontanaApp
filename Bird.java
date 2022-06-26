@@ -2,14 +2,6 @@
 /**
  * Classe Bird cria o objeto Bird com propriedades descritas no Livro para execucao do programa.
  *
- * @author bento.bastian@edu.pucrs.br
- * @author lucas.sasada@edu.pucrs.br
- * @author vicente.ferreira@edu.pucrs.br
- * @author thales.dias@edu.pucrs.br
- * @author 
- * 
- * @version 20220626
- * 
  * sciName = nome cientifico da ave;
  * ptName = nome em portugues da ave
  * enName = nome em ingles da ave;
@@ -22,6 +14,16 @@
  * habitats[3] = campo com arvores, arbustos ou arvoretas;
  * habitats[4] = banhado com espelho dagua;
  * habitats[5] = banhado com vegetacao alta, em geral palha ou gravata, sem espelho dagua;
+ *
+ * @author bento.bastian@edu.pucrs.br
+ * @author lucas.sasada@edu.pucrs.br
+ * @author vicente.ferreira@edu.pucrs.br
+ * @author thales.dias@edu.pucrs.br
+ * @author 
+ * 
+ * @version 20220626
+ * 
+
  */
 
 public class Bird {
