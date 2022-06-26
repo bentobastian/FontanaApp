@@ -1,188 +1,188 @@
-1,Ciconia maguari,joao-grande,Maguari Stork,Familia Ciconiidae,85,0,0,1,0,1,0
-2,Mycteria americana,cabeca-seca,Wood Stork,Familia Ciconiidae,65,0,0,1,0,1,0
-3,Cygnus melancoryphus,cisne-de-pescoco-preto,Black-necked-swan,Familia Anatidae,80,0,0,0,0,0,0
-4,Cosocoroba coscoroba,capororoca,Coscoroba Swan,Familia Anatidae,65,0,0,1,0,1,0
-5,Ardea alba,garca-branca-grande,Great Egret,Familia Ardeidae,65,0,0,1,0,1,0
-6,Egretta thula,garca-branca-pequena,Snowy Egret,Familia Ardeidae,40,0,0,1,0,1,0
-7,Bubulcus ibis,garca-vaqueira,Cattle Egret,Familia Ardeidae,35,1,0,1,0,0,0
-8,Pandion haliaetus,aguia-pescadora,Osprey,Familia Pandionidae,57,0,0,0,0,0,0
-9,Geranoaetus albicaudatus,gaviao-de-rabo-branco,White-tailed Hawk,Familia Accipitridae,53,0,0,0,0,0,0
-10,Elanus leucurus,gaviao-peneira,White-tailed Kite,Familia Accipitridae,35,0,0,1,0,0,1
-11,Chroicocephalus cirrocephalus,gaivota-de-cabeca-cinza,Grey-headed Gull,Familia Laridae,38,0,0,1,0,1,1
-12,Chroicocephalus maculipennis,gaivota-maria-velha,Brown-hooded Gull,Familia Laridae,35,0,0,1,0,1,1
-13,Himantopus melanurus,pernilongo-de-costas-brancas,White-necked-Stilt,Familia Recurvirostridae,35,0,0,1,0,1,0
-14,Sternula superciliaris,trinta-reis-anao,Yellow-Billed Tern,Familia Sternidae,22,1,0,0,0,1,0
-15,Melanerpes candidus,pica-pau-branco,White Woodpecker,Familia Picidae,26,0,0,0,1,0,0
-16,Tyrannus savana,tesourinha,Fork-tailed Flycatcher,Familia Tyrannidae,33,0,1,0,1,0,0
-17,Xolmis coronatus,noivinha-coroada,Black-crowned Monjita,Familia Tyrannidae,20,0,0,0,1,0,0
-18,Xolmis dominicanus,noivinha-de-rabo-preto,Black-and-white Monjita,Familia Tyrannidae,19,1,1,0,0,0,0
-19,Xolmis irupero,noivinha,White Monjita,Familia Tyrannidae,17,1,0,0,1,0,0
-20,Paroaria coronata,cardeal,Red-crested Cardinal,Familia Thraupidae,17,0,0,0,1,0,0
-21,Poospiza melanoleuca,capacetinho,Black-capped Warbling-Finch,Familia Thraupidae,13,0,1,0,1,0,0
-22,Xenopsaris albinucha,tijerila,White-naped Xenopsaris,Familia Tityridae,13,0,0,0,1,0,0
-23,Cathartes aura,urubu-de-cabeca-vermelha,Turkey Vulture,Familia Cathartidae,55,1,1,0,1,0,0
-24,Coragyps atratus,urubu-de-cabeca-preta,Black Vulture,Familia Cathartidae,53,0,0,0,0,0,0
-25,Cathartes burrovianus,urubu-de-cabeca-amarela,Lesser Yellow-headed Vulture,Familia Cathartidae,51,1,1,1,1,0,1
-26,Plegadis chihi,macarico-preto,White-faced Ibis,Familia Threskiornithidae,40,0,0,1,0,1,0
-27,Phimosus infuscatus,macarico-de-cara-pelada,Whispering Ibis,Familia Threskiornithidae,40,0,0,1,0,1,0
-28,Geranoaetus melanoleucus,aguia-chilena,Black- chested Buzzard-Eagle,Familia Accipitridae,65,0,0,0,0,0,0
-29,Rostrhamus sociabilis,gaviao-caramujeiro,Snail Kite,Familia Accipitridae,38,0,0,1,0,1,1
-30,Crotophaga ani,anu-preto,Smooth-billed Ani,Familia Cuculidae,32,0,0,0,0,0,0
-31,Gnorinopsar chopi,grauna,Chopi Blackbird,Familia Icteridae,23,1,0,0,0,0,0
-32,Molothrus bonariensis,vira-bosta,Shiny Cowbird,Familia Icteridae,19,1,0,0,1,0,0
-33,Pseudoleistes guirahuro,chopim-do-brejo,Yellow-rumped Marshbird,Familia Icteridae,22,1,0,1,1,0,1
-34,Pseudoleistes virescens,dragao,Brown-and-yellow Marshbird,Familia Icteridae,21,1,0,1,1,0,1
-35,Xanthopsar flavus,veste-amarela,Saffron-cowled Blackbird,Familia Icteridae,19,1,0,0,0,0,1
-36,Amblyramphus holosericeus,cardeal-do-banhado,Scarlet-headed Blackbird,Familia Icteridae,22,0,0,0,0,0,1
-37,Sturnella superciliaris,policia-inglesa,White-browed Blackbird,Familia Icteridae,17,0,1,1,0,0,0
-38,Chrysomus ruficapillus,garibaldi,Chestnut-capped Blackbird,Familia Icteridae,17,0,0,0,0,0,0
-39,Agelasticus thilius,sargento,Yellow-winged Blackbird,Familia Icteridae,17,0,0,0,0,0,1
-40,Molothrus rufoaxillaris,vira-bosta-picuma,Screaming Cowbird,Familia Icteridae,18,0,0,0,0,0,0
-41,Knipolegus lophotes,maria-preta-de-penacho,Crested Black-Tyrant,Familia Tyrannidae,19,0,0,0,0,0,0
-42,Pyrocephalus rubinus,principe,Vermilion Flycatcher,Familia Tyrannidae,13,1,0,0,1,0,0
-43,Hymenops perspicillatus,viuvinha-de-oculos,Spectacled Tyrant,Familia Tyrannidae,13,0,1,1,0,1,0
-44,Lessonia rufa,colegial,Patagonian Negrito,Familia Tyrannidae,11,1,0,1,0,0,0
-45,Arundinicola leucocephala,freirinha,White-headed Marsh Tyrant,Familia Tyrannidae,12,0,0,0,0,0,0
-46,Progne chalybea,andorinha-domestica-grande,Gray-breasted Martin,Familia Hirundinidae,18,0,0,0,0,0,0
-47,Tachycineta leucorrhoa,andorinha-de-testa-branca,White-rumped Swallow,Familia Hirundinidae,13,0,0,0,0,0,0
-48,Pygochelidon cyanoleuca,andorinha-pequena-de-casa,Blue-and-white Swallow,Familia Hirundinidae,11,0,0,0,0,0,0
-49,Volatinia jacarina,tiziu,Blue-black Grassquit,Familia Thraupidae,9,0,0,0,1,0,0
-50,Rhea americana,ema,Greater Rhea,Familia Rheidae,140,1,1,0,0,0,0
-51,Chauna torquata,tacha,Southern Screamer,Familia Anhimidae,85,0,0,1,0,1,0
-52,Cariama cristata,seriema,Red-legged Seriema,Familia Cariamidae,70,1,1,1,1,0,0
-53,Ardea cocoi,garca-moura,Cocoi Heron,Familia Ardeidae,75,0,0,1,0,1,0
-54,Syrigma sibilatrix,maria-faceira,Whistling Heron,Familia Ardeidae,48,0,0,1,0,1,0
-55,Butorides striata,socozinho,Striated Heron,Familia Ardeidae,34,0,0,1,0,0,1
-56,Theristicus caerulescens,macarico-real,Plumbeous Ibis,Familia Threskiornithidae,62,0,0,1,0,1,0
-57,Theristicus caudatus,curicaca,Buff-necked Ibis,Familia Threskiornithidae,57,1,0,1,0,0,0
-58,Vanellus chilensis,quero-quero,Southern Lapwing,Familia Charadriidae,31,1,0,1,0,0,0
-59,Oreopholus ruficollis,batuira-de-papo-ferrugineo,Tawny-throated Dotterelg,Familia Charadriidae,31,1,0,0,0,0,0
-60,Urubitinga coronata,aguia-cinzenta,Crowned Eagle,Familia Accipitridae,67,0,1,0,1,0,0
-61,Geranoaetus melanoleucus,aguia-chilena,Black- chested Buzzard-Eagle,Familia Accipitridae,65,1,0,0,1,0,0
-62,Circus buffoni,gaviao-do-banhado,Long-winged Harrier,Familia Accipitridae,52,0,0,1,0,0,1
-63,Circus cinereus,gaviao-cinza,Cinereous Harrier,Familia Accipitridae,44,0,0,1,0,0,1
-64,Falco peregrinus,falcao-peregrino,Peregrine Falcon,Familia Falconidae,39,0,0,0,0,0,0
-65,Falco sparverius,quiriquiri,American Kestrel,Familia Falconidae,26,0,0,0,0,0,0
-66,Patagioenas picazuro,pombao,Picazuro Pigeon,Familia Columbidae,34,0,0,0,0,0,0
-67,Patagioenas maculosa,pomba-do-orvalho,Spot-winged Pigeon,Familia Columbidae,35,0,0,0,1,0,0
-68,Zenaida auriculata,pomba-de-bando,Eared Dove,Familia Columbidae,22,0,0,0,0,0,0
-69,Columbina picui,rolinha-picui,Picui Ground-Dove,Familia Columbidae,15,0,1,0,1,0,0
-70,Gubernetes yetapa,tesoura-do-brejo,Streamer-tailed Tyrant,Familia Tyrannidae,40,0,1,0,0,0,1
-71,Xolmis cinereus,primavera,Grey Monjita,Familia Tyrannidae,20,0,1,0,1,0,0
-72,Griseotyrannus aurantioatrocristatus,peitica-de-chapeu-preto,Crowned Slaty Flycatcher,Familia Tyrannidae,18,0,0,0,1,0,0
-73,Progne tapera,andorinha-do-campo,Brown-chested Martin,Familia Hirundinidae,16,0,0,0,0,0,0
-74,Suiriri suiriri,suiriri-cinzento,Suiriri Flycatcher,Familia Tyrannidae,13,0,0,0,0,0,0
-75,Pyrocephalus rubinus,principe,Vermilion Flycatcher,Familia Tyrannidae,13,1,0,0,1,0,0
-76,Serpophaga nigricans,joao-pobre,Sooty Tyrannulet,Familia Tyrannidae,11,0,0,0,0,1,1
-77,Serpophaga subcristata,alegrinho,Familia Tyrannidae,White-crested Tyrannulet,9,0,0,0,0,0,0
-78,Polioptila dumicola,balanca-rabo-de-mascara,Masked Gnatcatcher,Familia Polioptilidae,12,0,0,0,1,,0
-79,Poospiza nigrorufa,quem-te-vestiu,Black-and-rufous Warbling-Finch,Familia Thraupidae,13,0,0,0,0,0,0
-80,Sporophila beltoni,patativa-tropeira,Tropeiro Seedeater,Familia Thraupidae,12,0,1,0,1,0,0
-81,Sporophila caerulescens,coleirinho,Double-collared Seedeater,Familia Thraupidae,10,0,1,0,1,0,0
-82,Sporophila melanogaster,caboclinho-de-barriga-preta,Black-bellied Seedeater,Familia Thraupidae,10,0,1,0,0,0,1
-83,Tigrisoma lineatum,soco-boi,Rufescent Tiger-Heron,Familia Ardeidae,62,0,0,1,0,0,1
-84,Aramus guarauna,carao,Limpkin,Familia Aramidae,54,0,0,1,0,0,1
-85,Dendrocygna viduata,marreca-piadeira ou irere,White-faced Whistling-Duck,Familia Anatidae,38,0,0,1,0,1,0
-86,Anas georgica,marreca-parda,Yellow-billed Pintail,Familia Anatidae,39,0,0,1,0,1,0
-87,Amazonetta brasiliensis,marreca-pe-vermelho,Brazilian Teal,Familia Anatidae,35,0,0,1,0,1,0
-88,Anas flavirostris,marreca-pardinha,Speckled Teal,Familia Anatidae,33,0,0,1,0,1,0
-89,Heterospizias meridionalis,gaviao-caboclo,Savanna Hawk,Familia Accipitridae,48,1,1,1,1,0,1
-90,Geranoaetus albicaudatus,gaviao-de-rabo-branco,White-tailed Hawk,Familia Accipitridae,53,1,1,1,1,0,1
-91,Rupornis magnirostris,gaviao-carijo,Roadside Hawk,Familia Accipitridae,34,0,0,0,0,0,0
-92,Caracara plancus,caracara,Southern Caracara,Familia Falconidae,55,1,1,1,1,0,0
-93,Milvago chimango,chimango,Chimango Caracara,Familia Falconidae,37,1,1,1,0,0,0
-94,Falco femoralis,falcao-de-coleira,Aplomado Falcon,Familia Falconidae,35,1,1,1,1,0,0
-95,Milvago chimachima,carrapateiro,Yellow-headed Caracara,Familia Falconidae,37,0,0,0,0,0,0
-96,Asio flammeus,mocho-dos-banhados,Short-eared Owl,Familia Strigidae,38,0,0,0,0,0,1
-97,Athene cunicularia,coruja-buraqueira,Burrowing Owl,Familia Strigidae,25,1,0,0,0,0,0
-98,Podager nacunda,corucao,Nacunda Nighthawk,Familia Caprimulgidae,28,1,0,0,0,0,0
-99,Chordeiles minor,bacurau-norte-americano,Common Nighthawk,Familia Caprimulgidae,23,1,0,0,1,0,0
-100,Hydropsalis longirostris,bacurau-da-telha,Band-winged Nightjar,Familia Caprimulgidae,23,1,0,0,1,0,0
-101,Hydropsalis anomala,curiango-do-banhado,Sickle-winged Nightjar,Familia Caprimulgidae,17,0,1,0,0,0,0
-102,Rhynchotus rufescens,perdigao,Red-winged Tinamou,Familia Tinamidae,38,0,1,0,0,0,0
-103,Nothura maculosa,perdiz,Spotted Nothura,Familia Tinamidae,25,1,1,0,1,0,0
-104,Pluvialis dominica,batuirucu,American Golden-Plover,Familia Charadriidae,22,1,0,1,0,0,0
-105,Charadrius modestus,batuira-de-peito-avermelhado,Rufous-chested Dotterel,Familia Charadriidae,18,1,0,1,0,0,0
-106,Bartramia longicauda,macarico-do-campo,Upland Sandpiper,Familia Scolopacidae,25,1,0,0,0,0,0
-107,Gallinago paraguaiae,narceja,South American Snipe,Familia Scolopacidae,23,0,0,1,0,0,1
-108,Calidris melanotos,macarico-de-colete,Pectoral Sandpiper,Familia Scolopacidae,18,0,0,1,0,0,0
-109,Calidris subruficollis,macarico-acanelado,Buff-breasted Sandpiper,Familia Scolopacidae,17,1,0,0,0,0,0
-110,Calidris fuscicollis,macarico-de-sobre-branco,White-rumped Sandpiper,Familia Scolopacidae,15,0,0,1,0,0,0
-111,Mimus saturninus,sabia-do-campo,Chalk-browed Mockingbird,Familia Mimidae,25,0,0,0,1,0,0
-112,Mimus triurus,calhandra-de-tres-rabos,White-banded Mockingbird,Familia Mimidae,20,0,0,0,1,0,0
-113,Pseudoseisura lophotes,coperete,Brown Cacholote,Familia Furnariidae,25,1,0,0,1,0,0
-114,Cinclodes pabsti,pedreiro,Long-tailed Cinclodes,Familia Furnariidae,22,1,0,0,0,0,0
-115,Cinclodes fuscus,pedreiro-dos-andes,Buff-winged Cinclodes,Familia Furnariidae,16,0,0,1,0,0,0
-116,Furnarius rufus,joao-de-barro,Rufous Hornero,Familia Furnariidae,18,1,0,0,1,0,0
-117,Anumbius annumbi,cochicho,Firewood-gatherer,Familia Furnariidae,18,0,0,0,1,0,0
-118,Asthenes hudsoni,lenheiro-platino,Hudsons Canastero,Familia Furnariidae,17,0,1,0,0,0,0
-119,Schoeniophylax phryganophila,bichoita,Chotoy Spinetail,Familia Furnariidae,20,0,0,0,1,0,0
-120,Limnornis curvirostris,joao-da-palha,Curve-billed Reedhaunter,Familia Furnariidae,16,0,0,0,0,0,1
-121,Limnoctites rectirostris,arredio-do-gravata,Straight-billed Reedhaunter,Familia Furnariidae,15,0,0,0,0,0,1
-122,Phacellodomus striaticollis,tio-tio,Freckle-breasted Thornbird,Familia Furnariidae,16,0,0,0,0,0,0
-123,Cranioleuca sulphurifera,arredio-de-papo-manchado,Sulphur-bearded Spinetail,Familia Furnariidae,15,0,0,0,0,0,1
-124,Asthenes baeri,lenheiro,Short-billed canastero,Familia Furnariidae,15,0,0,0,1,0,0
-125,Certhiaxis cinnamomeus,curutie,Yellow-chinned Spinetail,Familia Furnariidae,14,0,0,0,0,1,1
-126,Spartonoica maluroides,boininha,Bay-capped Wren-Spinetail,Familia Furnariidae,13,0,1,0,0,0,1
-127,Sturnella superciliaris,policia-inglesa,White-browed Blackbird,Familia Icteridae,17,1,0,1,0,0,0
-128,Dryimornis bridgesii,arapucu-platino,Scimitar-billed Woodcreeper,Familia Dendrocolaptidae,33,1,0,0,1,0,0
-129,Lepidocolaptes angustirostris,arapacu-de-cerrado,Narrow- billed Woodcreepe,Familia Dendrocolaptidae,20,0,0,0,1,0,0
-130,Geositta cunicularia,curriqueiro,Common Miner,Familia Scleruridae,14,1,0,0,0,0,0
-131,Anthus furcatus,caminheiro-de-unha-curta,Short-billed Pipit,Familia Motacillidae,14,1,0,0,0,0,0
-132,Anthus nattereri,caminheiro-grande,Ochre-breasted Pipit,Familia Motacillidae,14,1,1,0,0,0,0
-133,Anthus correndera,caminheiro-de-espora,Correndera Pipit,Familia Motacillidae,14,1,0,0,0,0,0
-134,Anthus hellmayri,caminheiro-de-barriga-acanelada,Hellmayrs Pipit,Familia Motacillidae,14,1,1,0,1,0,0
-135,Anthus lutescens,caminheiro-zumbidor,Yellowish Pipit,Familia Motacillidae,12,1,0,1,0,0,0
-136,Hirundinea ferruginea,birro,Cliff Flycatcher,Familia Tyrannidae,16,1,0,0,1,0,0
-137,Culicivora caudacuta,papa-moscas-do-campo,Sharp-tailed Grass-Tyrant,Familia Tyrannidae,10,0,1,0,0,0,1
-138,Polystictus pectoralis,papa-moscas-canela,Bearded Tachuri,Familia Tyrannidae,9,0,1,0,0,0,1
-139,Hirundo rustica,andorinha-de-bando,Barn Swallow,Familia Hirundinidae,15,0,0,0,0,0,0
-140,Stelgidopteryx ruficollis,andorinha-serradora,Southern Rough-winged Swallow,Familia Hirundinidae,14,0,0,0,0,0,0
-141,Alopochelidon fucata,andorinha-morena,Tawny-headed Swallow,Familia Hirundinidae,11,0,0,0,0,0,0
-142,Poospiza nigrorufa,quem-te-vestiu,Black-and-rufous Warbling-Finch,Familia Thraupidae,13,0,0,0,1,0,1
-143,Sporophila collaris,coleiro-do-brejo,Rusty-collared Seedeater,Familia Thraupidae,11,1,0,0,0,0,1
-144,Sporophila palustris,caboclinho-de-papo-branco,Marsh Seedeater,Familia Thraupidae,9,0,0,1,0,0,1
-145,Sporophila ruficollis,caboclinho-de-papo-escuro,Dark-throated Seedeater,Familia Thraupidae,9,0,1,0,0,0,1
-146,Sporophila cinnamomea,caboclinho-de-chapeu-cinzento,Chestnut Seedeater,Familia Thraupidae,9,0,0,0,0,0,0
-147,Sporophila hypoxantha,caboclinho-de-barriga-vermelha,Tawny-bellied Seedeater,Familia Thraupidae,9,0,1,0,0,0,1
-148,Aramides ypecaha,saracurucu,Giant Wood-Rail,Familia Ralidae,42,0,0,1,0,0,1
-149,Aramides cajaneus,tres-potes,Grey-necked Wood-Rail,Familia Ralidae,36,0,0,0,0,0,1
-150,Myiopsitta monachus,caturrita,Monk Parakeet,Familia Psittacidae,27,1,0,0,1,0,0
-151,Embernagra platensis,sabia-do-banhado,Great Pampa-Finch,Familia Thraupidae,20,0,1,1,1,0,1
-152,Emberizoides herbicola,canario-do-campo,Wedge-tailed Grass-Finch,Familia Thraupidae,18,0,1,1,0,0,0
-153,Emberizoides ypiranganus,canario-do-brejo,Lesser Grass-Finch,Familia Thraupidae,16,0,1,1,1,0,0
-154,Elaenia spectabilis,guaracava-grande,Large Elaenia,Familia Tyrannidae,18,0,0,0,1,0,0
-155,Elaenia obscura,tucao,Highland Elaenia,Familia Tyrannidae,16,0,0,0,1,0,0
-156,Heliomaster furcifer,bico-reto-azul,Blue-tufted Starthroat,Familia Trochilidae,13,0,0,0,1,0,0
-157,Polytmus guaynumbi,beija-flor-de-bico-curvo,White-tailed Goldenthroat,Familia Trochilidae,10,0,0,0,1,0,0
-158,Chlorostilbon lucidus,besourinho-de-bico-vermelho,Glittering-bellied Emerald,Familia Trochilidae,7,0,0,0,1,0,1
-159,Hylocharis chrysura,beija-flor-dourado,Gilded Hummingbird,Familia Trochilidae,8,0,0,0,1,0,0
-160,Milvago chimachima,carrapateiro,Yellow-headed Caracara,Familia Falconidae,37,0,0,0,0,0,0
-161,Guira guira,anu-branco,Guira Cuckoo,Familia Cuculidae,36,0,0,0,0,0,0
-162,Coccyzus melacoryphus,papa-lagarta-acanelado,Dark-billed Cuckoo,Familia Cuculidae,28,0,0,0,1,0,0
-163,Agelaioides badius,asa-de-telha,Bay-winged Cowbird,Familia Icteridae,18,0,0,0,1,0,0
-164,Ammodramus humeralis,tico-tico-do-campo,Grassland Sparrow,Familia Passerellidae,11,0,1,0,0,0,0
-165,Zonotrichia capensis,tico-tico,Rufous-collared Sparrow,Familia Passerellidae,12,0,0,0,0,0,0
-166,Cistothorus platensis,corruira-do-campo,Marsh Wren,Familia Troglodytidae,10,0,1,0,0,0,0
-167,Troglodytes musculus,corruira,Southern House Wren,Familia Troglodytidae,12,0,0,0,0,0,0
-168,Hymenops perspicillatus,viuvinha-de-oculos,Spectacled Tyrant,Familia Tyrannidae,13,0,1,1,0,1,0
-169,Donacospiza albifrons,tico-tico-do-banhado,Long-tailed Reed-Finch,Familia Thraupidae,14,0,0,0,0,0,0
-170,Sicalis flaveola,canario-da-terra-verdadeiro,Saffron Finch,Familia Thraupidae,12,1,1,0,1,0,0
-171,Sporophila beltoni,patativa-tropeira,Tropeiro Seedeater,Familia Thraupidae,12,0,1,0,1,0,0
-172,Sporophila collaris,coleiro-do-brejo,Rusty-collared Seedeater,Familia Thraupidae,11,1,0,0,0,0,1
-173,Sporophila hypoxantha,caboclinho-de-barriga-vermel- ha,Tawny-bellied Seedeater,Familia Thraupidae,9,0,1,0,0,0,1
-174,Sporophila pileata,caboclinho,Pearly-bellied Seedeater,Familia Thraupidae,9,0,1,0,0,0,1
-175,Sporophila melanogaster,caboclinho-de-barriga-preta,Black-bellied Seedeater,Familia Thraupidae,9,0,1,0,0,0,1
-176,Sporophila cinnamomea,caboclinho-de-chapeu-cinzento,Chestnut Seedeater,Familia Thraupidae,9,0,1,0,0,0,1
-177,Colaptes campestris,pica-pau-do-campo,Campo Flicker,Familia Picidae,28,0,1,0,1,0,0
-178,Pitangus sulphuratus,bem-te-vi,Great Kiskadee,Familia Tyrannidae,23,0,0,0,0,0,0
-179,Machetornis rixosa,suiriri-cavaleiro,Cattle Tyrant,Familia Tyrannidae,17,0,1,0,0,0,0
-180,Tyrannus melancholicus,suiriri,Tropical Kingbird,Familia Tyrannidae,37,1,0,0,1,0,0
-181,Satrapa icterophrys,suiriri-pequeno,Yellow-browed Tyrant,Familia Tyrannidae,15,0,0,0,0,0,0
-182,Geothlypis aequinoctialis,pia-cobra,Yellowthroat,Familia Parulidae,13,0,1,0,1,0,1
-183,Sicalis flaveola,canario-da-terra-verdadeiro,Saffron Finch,Familia Thraupidae,12,1,1,0,1,0,0
-184,Sicalis luteola,tipio,Grassland Yellow-Finch,Familia Thraupidae,12,0,1,0,1,0,0
-185,Sicalis citrina,canario-rasteiro,Stripe-tailed Yellow-Finch,Familia Thraupidae,12,0,1,0,0,0,0
-186,Pseudocolopteryx flaviventris,amarelinho-do-junco,Warbling Doradito,Familia Tyrannidae,10,0,0,0,0,0,1
-187,Tachuris rubrigastra,papa-piri,Many-colored Rush Tyrant,Familia Tachurisidae,11,0,0,0,0,0,1
-188,Gubernatrix cristata,cardeal-amarelo,Yellow Cardinal,Familia Thraupidae,19,0,0,0,0,0,0
+1,Ciconia maguari,joao-grande,Maguari Stork,Ciconiidae,85,0,0,1,0,1,0
+2,Mycteria americana,cabeca-seca,Wood Stork,Ciconiidae,65,0,0,1,0,1,0
+3,Cygnus melancoryphus,cisne-de-pescoco-preto,Black-necked-swan,Anatidae,80,0,0,0,0,0,0
+4,Cosocoroba coscoroba,capororoca,Coscoroba Swan,Anatidae,65,0,0,1,0,1,0
+5,Ardea alba,garca-branca-grande,Great Egret,Ardeidae,65,0,0,1,0,1,0
+6,Egretta thula,garca-branca-pequena,Snowy Egret,Ardeidae,40,0,0,1,0,1,0
+7,Bubulcus ibis,garca-vaqueira,Cattle Egret,Ardeidae,35,1,0,1,0,0,0
+8,Pandion haliaetus,aguia-pescadora,Osprey,Pandionidae,57,0,0,0,0,0,0
+9,Geranoaetus albicaudatus,gaviao-de-rabo-branco,White-tailed Hawk,Accipitridae,53,0,0,0,0,0,0
+10,Elanus leucurus,gaviao-peneira,White-tailed Kite,Accipitridae,35,0,0,1,0,0,1
+11,Chroicocephalus cirrocephalus,gaivota-de-cabeca-cinza,Grey-headed Gull,Laridae,38,0,0,1,0,1,1
+12,Chroicocephalus maculipennis,gaivota-maria-velha,Brown-hooded Gull,Laridae,35,0,0,1,0,1,1
+13,Himantopus melanurus,pernilongo-de-costas-brancas,White-necked-Stilt,Recurvirostridae,35,0,0,1,0,1,0
+14,Sternula superciliaris,trinta-reis-anao,Yellow-Billed Tern,Sternidae,22,1,0,0,0,1,0
+15,Melanerpes candidus,pica-pau-branco,White Woodpecker,Picidae,26,0,0,0,1,0,0
+16,Tyrannus savana,tesourinha,Fork-tailed Flycatcher,Tyrannidae,33,0,1,0,1,0,0
+17,Xolmis coronatus,noivinha-coroada,Black-crowned Monjita,Tyrannidae,20,0,0,0,1,0,0
+18,Xolmis dominicanus,noivinha-de-rabo-preto,Black-and-white Monjita,Tyrannidae,19,1,1,0,0,0,0
+19,Xolmis irupero,noivinha,White Monjita,Tyrannidae,17,1,0,0,1,0,0
+20,Paroaria coronata,cardeal,Red-crested Cardinal,Thraupidae,17,0,0,0,1,0,0
+21,Poospiza melanoleuca,capacetinho,Black-capped Warbling-Finch,Thraupidae,13,0,1,0,1,0,0
+22,Xenopsaris albinucha,tijerila,White-naped Xenopsaris,Tityridae,13,0,0,0,1,0,0
+23,Cathartes aura,urubu-de-cabeca-vermelha,Turkey Vulture,Cathartidae,55,1,1,0,1,0,0
+24,Coragyps atratus,urubu-de-cabeca-preta,Black Vulture,Cathartidae,53,0,0,0,0,0,0
+25,Cathartes burrovianus,urubu-de-cabeca-amarela,Lesser Yellow-headed Vulture,Cathartidae,51,1,1,1,1,0,1
+26,Plegadis chihi,macarico-preto,White-faced Ibis,Threskiornithidae,40,0,0,1,0,1,0
+27,Phimosus infuscatus,macarico-de-cara-pelada,Whispering Ibis,Threskiornithidae,40,0,0,1,0,1,0
+28,Geranoaetus melanoleucus,aguia-chilena,Black- chested Buzzard-Eagle,Accipitridae,65,0,0,0,0,0,0
+29,Rostrhamus sociabilis,gaviao-caramujeiro,Snail Kite,Accipitridae,38,0,0,1,0,1,1
+30,Crotophaga ani,anu-preto,Smooth-billed Ani,Cuculidae,32,0,0,0,0,0,0
+31,Gnorinopsar chopi,grauna,Chopi Blackbird,Icteridae,23,1,0,0,0,0,0
+32,Molothrus bonariensis,vira-bosta,Shiny Cowbird,Icteridae,19,1,0,0,1,0,0
+33,Pseudoleistes guirahuro,chopim-do-brejo,Yellow-rumped Marshbird,Icteridae,22,1,0,1,1,0,1
+34,Pseudoleistes virescens,dragao,Brown-and-yellow Marshbird,Icteridae,21,1,0,1,1,0,1
+35,Xanthopsar flavus,veste-amarela,Saffron-cowled Blackbird,Icteridae,19,1,0,0,0,0,1
+36,Amblyramphus holosericeus,cardeal-do-banhado,Scarlet-headed Blackbird,Icteridae,22,0,0,0,0,0,1
+37,Sturnella superciliaris,policia-inglesa,White-browed Blackbird,Icteridae,17,0,1,1,0,0,0
+38,Chrysomus ruficapillus,garibaldi,Chestnut-capped Blackbird,Icteridae,17,0,0,0,0,0,0
+39,Agelasticus thilius,sargento,Yellow-winged Blackbird,Icteridae,17,0,0,0,0,0,1
+40,Molothrus rufoaxillaris,vira-bosta-picuma,Screaming Cowbird,Icteridae,18,0,0,0,0,0,0
+41,Knipolegus lophotes,maria-preta-de-penacho,Crested Black-Tyrant,Tyrannidae,19,0,0,0,0,0,0
+42,Pyrocephalus rubinus,principe,Vermilion Flycatcher,Tyrannidae,13,1,0,0,1,0,0
+43,Hymenops perspicillatus,viuvinha-de-oculos,Spectacled Tyrant,Tyrannidae,13,0,1,1,0,1,0
+44,Lessonia rufa,colegial,Patagonian Negrito,Tyrannidae,11,1,0,1,0,0,0
+45,Arundinicola leucocephala,freirinha,White-headed Marsh Tyrant,Tyrannidae,12,0,0,0,0,0,0
+46,Progne chalybea,andorinha-domestica-grande,Gray-breasted Martin,Hirundinidae,18,0,0,0,0,0,0
+47,Tachycineta leucorrhoa,andorinha-de-testa-branca,White-rumped Swallow,Hirundinidae,13,0,0,0,0,0,0
+48,Pygochelidon cyanoleuca,andorinha-pequena-de-casa,Blue-and-white Swallow,Hirundinidae,11,0,0,0,0,0,0
+49,Volatinia jacarina,tiziu,Blue-black Grassquit,Thraupidae,9,0,0,0,1,0,0
+50,Rhea americana,ema,Greater Rhea,Rheidae,140,1,1,0,0,0,0
+51,Chauna torquata,tacha,Southern Screamer,Anhimidae,85,0,0,1,0,1,0
+52,Cariama cristata,seriema,Red-legged Seriema,Cariamidae,70,1,1,1,1,0,0
+53,Ardea cocoi,garca-moura,Cocoi Heron,Ardeidae,75,0,0,1,0,1,0
+54,Syrigma sibilatrix,maria-faceira,Whistling Heron,Ardeidae,48,0,0,1,0,1,0
+55,Butorides striata,socozinho,Striated Heron,Ardeidae,34,0,0,1,0,0,1
+56,Theristicus caerulescens,macarico-real,Plumbeous Ibis,Threskiornithidae,62,0,0,1,0,1,0
+57,Theristicus caudatus,curicaca,Buff-necked Ibis,Threskiornithidae,57,1,0,1,0,0,0
+58,Vanellus chilensis,quero-quero,Southern Lapwing,Charadriidae,31,1,0,1,0,0,0
+59,Oreopholus ruficollis,batuira-de-papo-ferrugineo,Tawny-throated Dotterelg,Charadriidae,31,1,0,0,0,0,0
+60,Urubitinga coronata,aguia-cinzenta,Crowned Eagle,Accipitridae,67,0,1,0,1,0,0
+61,Geranoaetus melanoleucus,aguia-chilena,Black- chested Buzzard-Eagle,Accipitridae,65,1,0,0,1,0,0
+62,Circus buffoni,gaviao-do-banhado,Long-winged Harrier,Accipitridae,52,0,0,1,0,0,1
+63,Circus cinereus,gaviao-cinza,Cinereous Harrier,Accipitridae,44,0,0,1,0,0,1
+64,Falco peregrinus,falcao-peregrino,Peregrine Falcon,Falconidae,39,0,0,0,0,0,0
+65,Falco sparverius,quiriquiri,American Kestrel,Falconidae,26,0,0,0,0,0,0
+66,Patagioenas picazuro,pombao,Picazuro Pigeon,Columbidae,34,0,0,0,0,0,0
+67,Patagioenas maculosa,pomba-do-orvalho,Spot-winged Pigeon,Columbidae,35,0,0,0,1,0,0
+68,Zenaida auriculata,pomba-de-bando,Eared Dove,Columbidae,22,0,0,0,0,0,0
+69,Columbina picui,rolinha-picui,Picui Ground-Dove,Columbidae,15,0,1,0,1,0,0
+70,Gubernetes yetapa,tesoura-do-brejo,Streamer-tailed Tyrant,Tyrannidae,40,0,1,0,0,0,1
+71,Xolmis cinereus,primavera,Grey Monjita,Tyrannidae,20,0,1,0,1,0,0
+72,Griseotyrannus aurantioatrocristatus,peitica-de-chapeu-preto,Crowned Slaty Flycatcher,Tyrannidae,18,0,0,0,1,0,0
+73,Progne tapera,andorinha-do-campo,Brown-chested Martin,Hirundinidae,16,0,0,0,0,0,0
+74,Suiriri suiriri,suiriri-cinzento,Suiriri Flycatcher,Tyrannidae,13,0,0,0,0,0,0
+75,Pyrocephalus rubinus,principe,Vermilion Flycatcher,Tyrannidae,13,1,0,0,1,0,0
+76,Serpophaga nigricans,joao-pobre,Sooty Tyrannulet,Tyrannidae,11,0,0,0,0,1,1
+77,Serpophaga subcristata,alegrinho,Tyrannidae,White-crested Tyrannulet,9,0,0,0,0,0,0
+78,Polioptila dumicola,balanca-rabo-de-mascara,Masked Gnatcatcher,Polioptilidae,12,0,0,0,1,,0
+79,Poospiza nigrorufa,quem-te-vestiu,Black-and-rufous Warbling-Finch,Thraupidae,13,0,0,0,0,0,0
+80,Sporophila beltoni,patativa-tropeira,Tropeiro Seedeater,Thraupidae,12,0,1,0,1,0,0
+81,Sporophila caerulescens,coleirinho,Double-collared Seedeater,Thraupidae,10,0,1,0,1,0,0
+82,Sporophila melanogaster,caboclinho-de-barriga-preta,Black-bellied Seedeater,Thraupidae,10,0,1,0,0,0,1
+83,Tigrisoma lineatum,soco-boi,Rufescent Tiger-Heron,Ardeidae,62,0,0,1,0,0,1
+84,Aramus guarauna,carao,Limpkin,Aramidae,54,0,0,1,0,0,1
+85,Dendrocygna viduata,marreca-piadeira ou irere,White-faced Whistling-Duck,Anatidae,38,0,0,1,0,1,0
+86,Anas georgica,marreca-parda,Yellow-billed Pintail,Anatidae,39,0,0,1,0,1,0
+87,Amazonetta brasiliensis,marreca-pe-vermelho,Brazilian Teal,Anatidae,35,0,0,1,0,1,0
+88,Anas flavirostris,marreca-pardinha,Speckled Teal,Anatidae,33,0,0,1,0,1,0
+89,Heterospizias meridionalis,gaviao-caboclo,Savanna Hawk,Accipitridae,48,1,1,1,1,0,1
+90,Geranoaetus albicaudatus,gaviao-de-rabo-branco,White-tailed Hawk,Accipitridae,53,1,1,1,1,0,1
+91,Rupornis magnirostris,gaviao-carijo,Roadside Hawk,Accipitridae,34,0,0,0,0,0,0
+92,Caracara plancus,caracara,Southern Caracara,Falconidae,55,1,1,1,1,0,0
+93,Milvago chimango,chimango,Chimango Caracara,Falconidae,37,1,1,1,0,0,0
+94,Falco femoralis,falcao-de-coleira,Aplomado Falcon,Falconidae,35,1,1,1,1,0,0
+95,Milvago chimachima,carrapateiro,Yellow-headed Caracara,Falconidae,37,0,0,0,0,0,0
+96,Asio flammeus,mocho-dos-banhados,Short-eared Owl,Strigidae,38,0,0,0,0,0,1
+97,Athene cunicularia,coruja-buraqueira,Burrowing Owl,Strigidae,25,1,0,0,0,0,0
+98,Podager nacunda,corucao,Nacunda Nighthawk,Caprimulgidae,28,1,0,0,0,0,0
+99,Chordeiles minor,bacurau-norte-americano,Common Nighthawk,Caprimulgidae,23,1,0,0,1,0,0
+100,Hydropsalis longirostris,bacurau-da-telha,Band-winged Nightjar,Caprimulgidae,23,1,0,0,1,0,0
+101,Hydropsalis anomala,curiango-do-banhado,Sickle-winged Nightjar,Caprimulgidae,17,0,1,0,0,0,0
+102,Rhynchotus rufescens,perdigao,Red-winged Tinamou,Tinamidae,38,0,1,0,0,0,0
+103,Nothura maculosa,perdiz,Spotted Nothura,Tinamidae,25,1,1,0,1,0,0
+104,Pluvialis dominica,batuirucu,American Golden-Plover,Charadriidae,22,1,0,1,0,0,0
+105,Charadrius modestus,batuira-de-peito-avermelhado,Rufous-chested Dotterel,Charadriidae,18,1,0,1,0,0,0
+106,Bartramia longicauda,macarico-do-campo,Upland Sandpiper,Scolopacidae,25,1,0,0,0,0,0
+107,Gallinago paraguaiae,narceja,South American Snipe,Scolopacidae,23,0,0,1,0,0,1
+108,Calidris melanotos,macarico-de-colete,Pectoral Sandpiper,Scolopacidae,18,0,0,1,0,0,0
+109,Calidris subruficollis,macarico-acanelado,Buff-breasted Sandpiper,Scolopacidae,17,1,0,0,0,0,0
+110,Calidris fuscicollis,macarico-de-sobre-branco,White-rumped Sandpiper,Scolopacidae,15,0,0,1,0,0,0
+111,Mimus saturninus,sabia-do-campo,Chalk-browed Mockingbird,Mimidae,25,0,0,0,1,0,0
+112,Mimus triurus,calhandra-de-tres-rabos,White-banded Mockingbird,Mimidae,20,0,0,0,1,0,0
+113,Pseudoseisura lophotes,coperete,Brown Cacholote,Furnariidae,25,1,0,0,1,0,0
+114,Cinclodes pabsti,pedreiro,Long-tailed Cinclodes,Furnariidae,22,1,0,0,0,0,0
+115,Cinclodes fuscus,pedreiro-dos-andes,Buff-winged Cinclodes,Furnariidae,16,0,0,1,0,0,0
+116,Furnarius rufus,joao-de-barro,Rufous Hornero,Furnariidae,18,1,0,0,1,0,0
+117,Anumbius annumbi,cochicho,Firewood-gatherer,Furnariidae,18,0,0,0,1,0,0
+118,Asthenes hudsoni,lenheiro-platino,Hudsons Canastero,Furnariidae,17,0,1,0,0,0,0
+119,Schoeniophylax phryganophila,bichoita,Chotoy Spinetail,Furnariidae,20,0,0,0,1,0,0
+120,Limnornis curvirostris,joao-da-palha,Curve-billed Reedhaunter,Furnariidae,16,0,0,0,0,0,1
+121,Limnoctites rectirostris,arredio-do-gravata,Straight-billed Reedhaunter,Furnariidae,15,0,0,0,0,0,1
+122,Phacellodomus striaticollis,tio-tio,Freckle-breasted Thornbird,Furnariidae,16,0,0,0,0,0,0
+123,Cranioleuca sulphurifera,arredio-de-papo-manchado,Sulphur-bearded Spinetail,Furnariidae,15,0,0,0,0,0,1
+124,Asthenes baeri,lenheiro,Short-billed canastero,Furnariidae,15,0,0,0,1,0,0
+125,Certhiaxis cinnamomeus,curutie,Yellow-chinned Spinetail,Furnariidae,14,0,0,0,0,1,1
+126,Spartonoica maluroides,boininha,Bay-capped Wren-Spinetail,Furnariidae,13,0,1,0,0,0,1
+127,Sturnella superciliaris,policia-inglesa,White-browed Blackbird,Icteridae,17,1,0,1,0,0,0
+128,Dryimornis bridgesii,arapucu-platino,Scimitar-billed Woodcreeper,Dendrocolaptidae,33,1,0,0,1,0,0
+129,Lepidocolaptes angustirostris,arapacu-de-cerrado,Narrow- billed Woodcreepe,Dendrocolaptidae,20,0,0,0,1,0,0
+130,Geositta cunicularia,curriqueiro,Common Miner,Scleruridae,14,1,0,0,0,0,0
+131,Anthus furcatus,caminheiro-de-unha-curta,Short-billed Pipit,Motacillidae,14,1,0,0,0,0,0
+132,Anthus nattereri,caminheiro-grande,Ochre-breasted Pipit,Motacillidae,14,1,1,0,0,0,0
+133,Anthus correndera,caminheiro-de-espora,Correndera Pipit,Motacillidae,14,1,0,0,0,0,0
+134,Anthus hellmayri,caminheiro-de-barriga-acanelada,Hellmayrs Pipit,Motacillidae,14,1,1,0,1,0,0
+135,Anthus lutescens,caminheiro-zumbidor,Yellowish Pipit,Motacillidae,12,1,0,1,0,0,0
+136,Hirundinea ferruginea,birro,Cliff Flycatcher,Tyrannidae,16,1,0,0,1,0,0
+137,Culicivora caudacuta,papa-moscas-do-campo,Sharp-tailed Grass-Tyrant,Tyrannidae,10,0,1,0,0,0,1
+138,Polystictus pectoralis,papa-moscas-canela,Bearded Tachuri,Tyrannidae,9,0,1,0,0,0,1
+139,Hirundo rustica,andorinha-de-bando,Barn Swallow,Hirundinidae,15,0,0,0,0,0,0
+140,Stelgidopteryx ruficollis,andorinha-serradora,Southern Rough-winged Swallow,Hirundinidae,14,0,0,0,0,0,0
+141,Alopochelidon fucata,andorinha-morena,Tawny-headed Swallow,Hirundinidae,11,0,0,0,0,0,0
+142,Poospiza nigrorufa,quem-te-vestiu,Black-and-rufous Warbling-Finch,Thraupidae,13,0,0,0,1,0,1
+143,Sporophila collaris,coleiro-do-brejo,Rusty-collared Seedeater,Thraupidae,11,1,0,0,0,0,1
+144,Sporophila palustris,caboclinho-de-papo-branco,Marsh Seedeater,Thraupidae,9,0,0,1,0,0,1
+145,Sporophila ruficollis,caboclinho-de-papo-escuro,Dark-throated Seedeater,Thraupidae,9,0,1,0,0,0,1
+146,Sporophila cinnamomea,caboclinho-de-chapeu-cinzento,Chestnut Seedeater,Thraupidae,9,0,0,0,0,0,0
+147,Sporophila hypoxantha,caboclinho-de-barriga-vermelha,Tawny-bellied Seedeater,Thraupidae,9,0,1,0,0,0,1
+148,Aramides ypecaha,saracurucu,Giant Wood-Rail,Ralidae,42,0,0,1,0,0,1
+149,Aramides cajaneus,tres-potes,Grey-necked Wood-Rail,Ralidae,36,0,0,0,0,0,1
+150,Myiopsitta monachus,caturrita,Monk Parakeet,Psittacidae,27,1,0,0,1,0,0
+151,Embernagra platensis,sabia-do-banhado,Great Pampa-Finch,Thraupidae,20,0,1,1,1,0,1
+152,Emberizoides herbicola,canario-do-campo,Wedge-tailed Grass-Finch,Thraupidae,18,0,1,1,0,0,0
+153,Emberizoides ypiranganus,canario-do-brejo,Lesser Grass-Finch,Thraupidae,16,0,1,1,1,0,0
+154,Elaenia spectabilis,guaracava-grande,Large Elaenia,Tyrannidae,18,0,0,0,1,0,0
+155,Elaenia obscura,tucao,Highland Elaenia,Tyrannidae,16,0,0,0,1,0,0
+156,Heliomaster furcifer,bico-reto-azul,Blue-tufted Starthroat,Trochilidae,13,0,0,0,1,0,0
+157,Polytmus guaynumbi,beija-flor-de-bico-curvo,White-tailed Goldenthroat,Trochilidae,10,0,0,0,1,0,0
+158,Chlorostilbon lucidus,besourinho-de-bico-vermelho,Glittering-bellied Emerald,Trochilidae,7,0,0,0,1,0,1
+159,Hylocharis chrysura,beija-flor-dourado,Gilded Hummingbird,Trochilidae,8,0,0,0,1,0,0
+160,Milvago chimachima,carrapateiro,Yellow-headed Caracara,Falconidae,37,0,0,0,0,0,0
+161,Guira guira,anu-branco,Guira Cuckoo,Cuculidae,36,0,0,0,0,0,0
+162,Coccyzus melacoryphus,papa-lagarta-acanelado,Dark-billed Cuckoo,Cuculidae,28,0,0,0,1,0,0
+163,Agelaioides badius,asa-de-telha,Bay-winged Cowbird,Icteridae,18,0,0,0,1,0,0
+164,Ammodramus humeralis,tico-tico-do-campo,Grassland Sparrow,Passerellidae,11,0,1,0,0,0,0
+165,Zonotrichia capensis,tico-tico,Rufous-collared Sparrow,Passerellidae,12,0,0,0,0,0,0
+166,Cistothorus platensis,corruira-do-campo,Marsh Wren,Troglodytidae,10,0,1,0,0,0,0
+167,Troglodytes musculus,corruira,Southern House Wren,Troglodytidae,12,0,0,0,0,0,0
+168,Hymenops perspicillatus,viuvinha-de-oculos,Spectacled Tyrant,Tyrannidae,13,0,1,1,0,1,0
+169,Donacospiza albifrons,tico-tico-do-banhado,Long-tailed Reed-Finch,Thraupidae,14,0,0,0,0,0,0
+170,Sicalis flaveola,canario-da-terra-verdadeiro,Saffron Finch,Thraupidae,12,1,1,0,1,0,0
+171,Sporophila beltoni,patativa-tropeira,Tropeiro Seedeater,Thraupidae,12,0,1,0,1,0,0
+172,Sporophila collaris,coleiro-do-brejo,Rusty-collared Seedeater,Thraupidae,11,1,0,0,0,0,1
+173,Sporophila hypoxantha,caboclinho-de-barriga-vermel- ha,Tawny-bellied Seedeater,Thraupidae,9,0,1,0,0,0,1
+174,Sporophila pileata,caboclinho,Pearly-bellied Seedeater,Thraupidae,9,0,1,0,0,0,1
+175,Sporophila melanogaster,caboclinho-de-barriga-preta,Black-bellied Seedeater,Thraupidae,9,0,1,0,0,0,1
+176,Sporophila cinnamomea,caboclinho-de-chapeu-cinzento,Chestnut Seedeater,Thraupidae,9,0,1,0,0,0,1
+177,Colaptes campestris,pica-pau-do-campo,Campo Flicker,Picidae,28,0,1,0,1,0,0
+178,Pitangus sulphuratus,bem-te-vi,Great Kiskadee,Tyrannidae,23,0,0,0,0,0,0
+179,Machetornis rixosa,suiriri-cavaleiro,Cattle Tyrant,Tyrannidae,17,0,1,0,0,0,0
+180,Tyrannus melancholicus,suiriri,Tropical Kingbird,Tyrannidae,37,1,0,0,1,0,0
+181,Satrapa icterophrys,suiriri-pequeno,Yellow-browed Tyrant,Tyrannidae,15,0,0,0,0,0,0
+182,Geothlypis aequinoctialis,pia-cobra,Yellowthroat,Parulidae,13,0,1,0,1,0,1
+183,Sicalis flaveola,canario-da-terra-verdadeiro,Saffron Finch,Thraupidae,12,1,1,0,1,0,0
+184,Sicalis luteola,tipio,Grassland Yellow-Finch,Thraupidae,12,0,1,0,1,0,0
+185,Sicalis citrina,canario-rasteiro,Stripe-tailed Yellow-Finch,Thraupidae,12,0,1,0,0,0,0
+186,Pseudocolopteryx flaviventris,amarelinho-do-junco,Warbling Doradito,Tyrannidae,10,0,0,0,0,0,1
+187,Tachuris rubrigastra,papa-piri,Many-colored Rush Tyrant,Tachurisidae,11,0,0,0,0,0,1
+188,Gubernatrix cristata,cardeal-amarelo,Yellow Cardinal,Thraupidae,19,0,0,0,0,0,0

@@ -5,7 +5,7 @@
  * @author bento.bastian@edu.pucrs.br
  * @author lucas.sasada@edu.pucrs.br
  * @author vicente.ferreira@edu.pucrs.br
- * @author 
+ * @author thales.dias@edu.pucrs.br
  * @author 
  * 
  * @version 20220626
