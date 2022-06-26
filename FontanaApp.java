@@ -7,8 +7,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-import org.omg.PortableInterceptor.ACTIVE;
-
 /**
  * FontanaApp eh um app criado para estudar objetos e rotinas em Java para aula de Fundamentos de Programcao.
  * Consiste em um programa que le um catalogo de aves e faz anotacoes para a ornitologia (estudo das aves).
@@ -24,6 +22,8 @@ import org.omg.PortableInterceptor.ACTIVE;
 
 public class FontanaApp {
     public static final Scanner sc = new Scanner(System.in);
+    public static Note[] notes = new Note[0];
+    
     public static Bird[] createCatalog() throws IOException {
     Bird[] catalog = new Bird[188];
     BufferedReader r = new BufferedReader(new FileReader("catalog.txt"));
@@ -47,7 +47,7 @@ public class FontanaApp {
         return new Bird(id, attributes[1], attributes[2], attributes[3], attributes[4], size, habitats);
     }
     public static void mainMenu(Bird[] catalog){
-        System.out.println("Opcoes disponiveis\n1: Consultar aves no catalogo\n2: Fazer uma anotacao\n3: Consultar anotacoes\n4: sair");
+        System.out.println("Opcoes disponiveis\n1: Consultar aves no catalogo\n2: Fazer uma anotacao\n3: Consultar anotacoes\n4: Salvar no arquyivo Notes.txt localizado na mesma pasta do FontanaApp.java e sair");
         int op = sc.nextInt();
 
         switch(op){
@@ -61,8 +61,7 @@ public class FontanaApp {
                 noteQuery(catalog);
                 break;
             case 4:
-                sc.close();
-                System.exit(0);
+                saveAndExit();
                 break;
             default:
                 System.out.println("Voce escolheu uma opcao invalida");
@@ -90,7 +89,7 @@ public class FontanaApp {
         int id, day, month, year;
         String local = new String();
 
-        System.out.println("Identifique a Ave com o ID");
+        System.out.println("Identifique a Ave com o ID (1-188)");
         id = sc.nextInt();
         sc.nextLine();
         
@@ -111,9 +110,17 @@ public class FontanaApp {
     
         Note note  = new Note(catalog[id-1], local, day, month, year);
 
-        addNote(note, catalog);
+        arrayNotes(note, catalog);
     }
-    public static void addNote(Note note, Bird[] catalog){
+    public static void arrayNotes(Note note, Bird[] catalog) {
+        Note[] newNotes = new Note[notes.length+1];
+        for (int i = 0; i < notes.length; i++)
+            newNotes[i] = notes[i];
+        newNotes[notes.length] = note;
+        notes = newNotes;
+        mainMenu(catalog);
+    }
+    public static void saveAndExit(){
         String path = "Notes.txt";
 
         try{
@@ -122,7 +129,8 @@ public class FontanaApp {
         BufferedWriter bw = new BufferedWriter(fw);
         PrintWriter pw = new PrintWriter(bw);
         
-        pw.printf(note.toString());
+        for (int i = 0; i < notes.length; i++)
+            pw.printf(notes[i].toString());
         pw.close();
         bw.close();
         fw.close();
@@ -130,7 +138,8 @@ public class FontanaApp {
         }
         catch(IOException e){
         }
-        mainMenu(catalog);
+        sc.close();
+        System.exit(0);
     }
     public static void birdQueryMenu(Bird[] catalog) {
         System.out.println("Voce quer buscar uma ave por qual parametro?\n1: Nome cientifico\n2: Nome em portugues\n3: Nome em ingles\n4: Familia\n5: Tamanho em cm\n6: Habitat\n0: Voltar para o menu principal");
@@ -290,7 +299,6 @@ public class FontanaApp {
         Bird[] catalog = createCatalog();
         initiateNotes();
         System.out.println("Bem vindo ao FontanaApp\nPressione o numero correspondente a funcao desejada");
-        
         mainMenu(catalog);
     }
     }

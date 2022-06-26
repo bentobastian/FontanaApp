@@ -1,24 +1,35 @@
-ID: 5
-Nome cientifico: Ardea alba
-Nome em portugues: garca-branca-grande
-Nome em ingles: Great Egret
-Pertence a Familia Ardeidae
-Possui tamanho: 65 cm
-Habitates:
-campo alagado, campo umido, varzeas alagadas
-banhado com espelho dagua
-Local: laranjal
-Data: 25/3/2014
-
-ID: 7
-Nome cientifico: Bubulcus ibis
-Nome em portugues: garca-vaqueira
-Nome em ingles: Cattle Egret
-Pertence a Familia Ardeidae
-Possui tamanho: 35 cm
+ID: 150
+Nome cientifico: Myiopsitta monachus
+Nome em portugues: caturrita
+Nome em ingles: Monk Parakeet
+Pertence a Familia Psittacidae
+Possui tamanho: 27 cm
 Habitates:
 campo seco baixo
-campo alagado, campo umido, varzeas alagadas
-Local: pelotas
-Data: 26/2/2009
+campo com arvores, arbustos ou arvoretas
+Local: bage
+Data: 24/11/2003
+
+ID: 150
+Nome cientifico: Myiopsitta monachus
+Nome em portugues: caturrita
+Nome em ingles: Monk Parakeet
+Pertence a Familia Psittacidae
+Tamanho medio: 27 cm
+Habitates:
+campo seco baixo
+campo com arvores, arbustos ou arvoretas
+Local: maringa
+Data: 15/12/1996
+
+ID: 120
+Nome cientifico: Limnornis curvirostris
+Nome em portugues: joao-da-palha
+Nome em ingles: Curve-billed Reedhaunter
+Pertence a Familia Furnariidae
+Tamanho medio: 16 cm
+Habitates:
+banhado com vegetacao alta, em geral palha ou gravata, sem espelho dagua
+Local: rio de janeiro
+Data: 12/8/1987
 

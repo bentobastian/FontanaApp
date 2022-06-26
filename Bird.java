@@ -44,7 +44,7 @@ public class Bird {
     }
 
     public String toString(){
-        String s = String.format("ID: %d\nNome cientifico: %s\nNome em portugues: %s\nNome em ingles: %s\nPertence a Familia %s\nPossui tamanho: %d cm\nHabitates:\n", id, sciName, ptName, enName, family, size);
+        String s = String.format("ID: %d\nNome cientifico: %s\nNome em portugues: %s\nNome em ingles: %s\nPertence a Familia %s\nTamanho medio: %d cm\nHabitates:\n", id, sciName, ptName, enName, family, size);
         if (habitats[0])
             s = s +"campo seco baixo\n";
         if (habitats[1])
