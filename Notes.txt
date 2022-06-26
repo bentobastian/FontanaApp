@@ -1,0 +1,24 @@
+ID: 5
+Nome cientifico: Ardea alba
+Nome em portugues: garca-branca-grande
+Nome em ingles: Great Egret
+Pertence a Familia Ardeidae
+Possui tamanho: 65 cm
+Habitates:
+campo alagado, campo umido, varzeas alagadas
+banhado com espelho dagua
+Local: laranjal
+Data: 25/3/2014
+
+ID: 7
+Nome cientifico: Bubulcus ibis
+Nome em portugues: garca-vaqueira
+Nome em ingles: Cattle Egret
+Pertence a Familia Ardeidae
+Possui tamanho: 35 cm
+Habitates:
+campo seco baixo
+campo alagado, campo umido, varzeas alagadas
+Local: pelotas
+Data: 26/2/2009
+

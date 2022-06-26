@@ -1,7 +1,13 @@
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Scanner;
+
+import org.omg.PortableInterceptor.ACTIVE;
 
 /**
  * FontanaApp eh um app criado para estudar objetos e rotinas em Java para aula de Fundamentos de Programcao.
@@ -55,6 +61,7 @@ public class FontanaApp {
                 noteQuery(catalog);
                 break;
             case 4:
+                sc.close();
                 System.exit(0);
                 break;
             default:
@@ -64,7 +71,66 @@ public class FontanaApp {
     }
     public static void noteQuery(Bird[] catalog) {
     }
-    public static void createNote(Bird[] catalog) {
+    public static void initiateNotes(){
+        String path = "Notes.txt";
+        File notes = new File (path);
+        
+        try{
+        if (!notes.exists()) {
+            notes.createNewFile();
+            System.out.println("Arquivo criado: " + notes.getName());
+        }
+        else System.out.println("Notes ja existe.");
+        }
+        catch(IOException e){
+        }
+    
+    }
+    public static void createNote(Bird[] catalog){
+        int id, day, month, year;
+        String local = new String();
+
+        System.out.println("Identifique a Ave com o ID");
+        id = sc.nextInt();
+        sc.nextLine();
+        
+        System.out.println("Digite o Local");
+        local = sc.nextLine();
+        
+        System.out.println("Digite a Data");
+        System.out.println("Dia");
+        day = sc.nextInt();
+        sc.nextLine();
+        
+        System.out.println("Mes");
+        month = sc.nextInt();
+        sc.nextLine();
+
+        System.out.println("Ano");
+        year = sc.nextInt();
+    
+        Note note  = new Note(catalog[id-1], local, day, month, year);
+
+        addNote(note, catalog);
+    }
+    public static void addNote(Note note, Bird[] catalog){
+        String path = "Notes.txt";
+
+        try{
+        File add = new File(path);
+        FileWriter fw = new FileWriter(add, true);
+        BufferedWriter bw = new BufferedWriter(fw);
+        PrintWriter pw = new PrintWriter(bw);
+        
+        pw.printf(note.toString());
+        pw.close();
+        bw.close();
+        fw.close();
+        
+        }
+        catch(IOException e){
+        }
+        mainMenu(catalog);
     }
     public static void birdQueryMenu(Bird[] catalog) {
         System.out.println("Voce quer buscar uma ave por qual parametro?\n1: Nome cientifico\n2: Nome em portugues\n3: Nome em ingles\n4: Familia\n5: Tamanho em cm\n6: Habitat\n0: Voltar para o menu principal");
@@ -84,7 +150,7 @@ public class FontanaApp {
             case 6: habitatFinder(catalog);
         }
     }
-    private static void sizeFinder(Bird[] catalog) {
+    public static void sizeFinder(Bird[] catalog) {
         int size;
         System.out.println("Entre com o tamanho medio do passaro que voce quer pesquisar:\n(Aparecera passaros num raio de 2 cm do valor que voce escolher)");
         size = sc.nextInt();
@@ -95,7 +161,7 @@ public class FontanaApp {
         }
         mainMenu(catalog);
     }
-    private static void familyFinder(Bird[] catalog) {
+    public static void familyFinder(Bird[] catalog) {
         String s = new String();
         System.out.println("Entre com o nome da familia do passaro que voce quer pesquisar:");
         s = sc.next();
@@ -222,8 +288,9 @@ public class FontanaApp {
     }
     public static void main(String[] args) throws IOException{
         Bird[] catalog = createCatalog();
+        initiateNotes();
         System.out.println("Bem vindo ao FontanaApp\nPressione o numero correspondente a funcao desejada");
         
         mainMenu(catalog);
-        }
+    }
     }
