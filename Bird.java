@@ -5,7 +5,7 @@ import java.util.Arrays;
  *
  * @author bento.bastian@edu.pucrs.br
  * @author lucas.sasada@edu.pucrs.br
- * @author 
+ * @author vicente.ferreira@edu.pucrs.br
  * @author 
  * @author 
  * 
