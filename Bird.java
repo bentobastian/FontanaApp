@@ -1,10 +1,23 @@
 import java.util.Arrays;
 
 /**
- * Write a description of class Bird here.
+ * Classe Bird cria o objeto Bird com propriedades descritas no Livro para execucao do programa.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author bento.bastian@edu.pucrs.br
+ * @author lucas.sasada@edu.pucrs.br
+ * @author 
+ * @author 
+ * @author 
+ * 
+ * @version 20220626
+ * 
+ * boolean[] habitats representas os habitates que os passaros frequentam, sendo eles: 
+ * habitats[0] = campo seco baixo;
+ * habitats[1] = campo seco alto, campo “sujo”;
+ * habitats[2] = campo seco alto;
+ * habitats[1] = campo seco alto;
+ * habitats[1] = campo seco alto;
+ * habitats[1] = campo seco alto;
  */
 
 public class Bird {

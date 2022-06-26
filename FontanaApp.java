@@ -4,10 +4,16 @@ import java.io.IOException;
 import java.util.Arrays;
 
 /**
- * Write a description of class FontanaApp here.
+ * FontanaApp eh um app criado para estudar objetos e rotinas em Java para aula de Fundamentos de Programcao.
+ * Consiste em um programa que le um catalogo de aves e faz anotacoes para a ornitologia (estudo das aves).
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author bento.bastian@edu.pucrs.br
+ * @author lucas.sasada@edu.pucrs.br
+ * @author 
+ * @author 
+ * @author 
+ * 
+ * @version 20220626
  */
 
 public class FontanaApp{

@@ -2,8 +2,13 @@
 /**
  * Write a description of class Note here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author bento.bastian@edu.pucrs.br
+ * @author lucas.sasada@edu.pucrs.br
+ * @author 
+ * @author 
+ * @author 
+ * 
+ * @version 20220626
  */
 
 public class Note {
