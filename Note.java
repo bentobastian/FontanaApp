@@ -14,11 +14,15 @@
 public class Note {
     private Bird bird;
     private String local;
-    private int date;
+    private int day;
+    private int month;
+    private int year;
     
-    public Note (Bird bird, String local, int date){
+    public Note (Bird bird, String local, int day, int month, int year){
         this.bird = bird;
         this.local = local;
-        this.date = date;
+        this.day = day;
+        this.month = month;
+        this.year = year;
     }
 }

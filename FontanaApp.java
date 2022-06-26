@@ -76,13 +76,63 @@ public class FontanaApp {
         }
         switch (op){
             case 0: mainMenu(catalog);
-            // case 1: sciNameFinder(catalog);
-            // case 2: ptNameFinder(catalog);
-            // case 3: enNameFinder(catalog);
-            // case 4: familyFinder(catalog);
-            // case 5: sizeFinder(catalog);
+            case 1: sciNameFinder(catalog);
+            case 2: ptNameFinder(catalog);
+            case 3: enNameFinder(catalog);
+            case 4: familyFinder(catalog);
+            case 5: sizeFinder(catalog);
             case 6: habitatFinder(catalog);
         }
+    }
+    private static void sizeFinder(Bird[] catalog) {
+        int size;
+        System.out.println("Entre com o tamanho medio do passaro que voce quer pesquisar:\n(Aparecera passaros num raio de 2 cm do valor que voce escolher)");
+        size = sc.nextInt();
+        System.out.println("");
+        for (int i = 0; i < catalog.length; i++){
+            if (Math.abs(catalog[i].size - size) <= 2)
+                System.out.println(catalog[i].toString());
+        }
+        mainMenu(catalog);
+    }
+    private static void familyFinder(Bird[] catalog) {
+        String s = new String();
+        System.out.println("Entre com o nome da familia do passaro que voce quer pesquisar:");
+        s = sc.next();
+        System.out.println("");
+        for (int i = 0; i < catalog.length; i++){
+            String s1 = catalog[i].family.toUpperCase();
+            String s2 = s.toUpperCase();
+            if (s1.contains(s2))
+                System.out.println(catalog[i].toString());
+        }
+        mainMenu(catalog);
+    }
+    public static void enNameFinder(Bird[] catalog) {
+        String s = new String();
+        System.out.println("Entre com o nome em ingles do passaro que voce quer pesquisar:");
+        s = sc.next();
+        System.out.println("");
+        for (int i = 0; i < catalog.length; i++){
+            String s1 = catalog[i].enName.toUpperCase();
+            String s2 = s.toUpperCase();
+            if (s1.contains(s2))
+                System.out.println(catalog[i].toString());
+        }
+        mainMenu(catalog);
+    }
+    public static void ptNameFinder(Bird[] catalog) {
+        String s = new String();
+        System.out.println("Entre com o nome em portugues do passaro que voce quer pesquisar:");
+        s = sc.next();
+        System.out.println("");
+        for (int i = 0; i < catalog.length; i++){
+            String s1 = catalog[i].ptName.toUpperCase();
+            String s2 = s.toUpperCase();
+            if (s1.contains(s2))
+                System.out.println(catalog[i].toString());
+        }
+        mainMenu(catalog);
     }
     public static void habitatFinder(Bird[] catalog) {
         System.out.println("voce quer buscar as aves de qual habitat?\n1: campo seco baixo;\n2: campo seco alto, campo “sujo”;\n3: campo alagado, campo umido, varzeas alagadas;\n4: campo com arores, arbustos ou arvoretas;\n5: banhado com espelho dagua;\n6: banhado com vegetacao alta, em geral palha ou gravata, sem espelho dagua;\n0: voltar ao menu principal");
@@ -158,13 +208,17 @@ public class FontanaApp {
         mainMenu(catalog);
     }
     public static void sciNameFinder(Bird[] catalog) {
-        String name = new String();
+        String s = new String();
         System.out.println("Entre com o nome cientifico do passaro que voce quer pesquisar:");
-        name = sc.nextLine();
-
+        s = sc.next();
+        System.out.println("");
         for (int i = 0; i < catalog.length; i++){
-
+            String s1 = catalog[i].sciName.toUpperCase();
+            String s2 = s.toUpperCase();
+            if (s1.contains(s2))
+                System.out.println(catalog[i].toString());
         }
+        mainMenu(catalog);
     }
     public static void main(String[] args) throws IOException{
         Bird[] catalog = createCatalog();

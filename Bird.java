@@ -22,12 +22,12 @@ import javax.naming.SizeLimitExceededException;
  */
 
 public class Bird {
-    private int id;
-    private String sciName;
-    private String ptName;
-    private String enName;
-    private String family;
-    private int size;
+    int id;
+    String sciName;
+    String ptName;
+    String enName;
+    String family;
+    int size;
     boolean[] habitats;
 
     public Bird(int id, String sciName, String ptName, String enName, String family, int size, boolean[] habitats){

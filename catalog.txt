@@ -170,7 +170,7 @@
 170,Sicalis flaveola,canario-da-terra-verdadeiro,Saffron Finch,Thraupidae,12,1,1,0,1,0,0
 171,Sporophila beltoni,patativa-tropeira,Tropeiro Seedeater,Thraupidae,12,0,1,0,1,0,0
 172,Sporophila collaris,coleiro-do-brejo,Rusty-collared Seedeater,Thraupidae,11,1,0,0,0,0,1
-173,Sporophila hypoxantha,caboclinho-de-barriga-vermel- ha,Tawny-bellied Seedeater,Thraupidae,9,0,1,0,0,0,1
+173,Sporophila hypoxantha,caboclinho-de-barriga-vermelha,Tawny-bellied Seedeater,Thraupidae,9,0,1,0,0,0,1
 174,Sporophila pileata,caboclinho,Pearly-bellied Seedeater,Thraupidae,9,0,1,0,0,0,1
 175,Sporophila melanogaster,caboclinho-de-barriga-preta,Black-bellied Seedeater,Thraupidae,9,0,1,0,0,0,1
 176,Sporophila cinnamomea,caboclinho-de-chapeu-cinzento,Chestnut Seedeater,Thraupidae,9,0,1,0,0,0,1
