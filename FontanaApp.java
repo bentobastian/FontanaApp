@@ -23,31 +23,43 @@ import java.util.Scanner;
 public class FontanaApp {
     public static final Scanner sc = new Scanner(System.in);
     public static Note[] notes = new Note[0];
-    
+
+    /**
+     * Metodo que retorna o objeto catalog (catalogo) a partir da leitura (filereader) do arquivo catalog.txt.
+     */
     public static Bird[] createCatalog() throws IOException {
-    Bird[] catalog = new Bird[188];
-    BufferedReader r = new BufferedReader(new FileReader("catalog.txt"));
-    int i = 0;
-    String line = r.readLine();
-    while (line != null) {
-        catalog[i] = createBird(line);
-        line = r.readLine();
-        i++;
-            }
+        Bird[] catalog = new Bird[188];
+        BufferedReader r = new BufferedReader(new FileReader("catalog.txt"));
+        int i = 0;
+        String line = r.readLine();
+        while (line != null) {
+            catalog[i] = createBird(line);
+            line = r.readLine();
+            i++;
+        }
         r.close();
         return catalog;
     }
+
+    /**
+     * Retorna um objeto Bird com num de ID (na lista), nomenclaturas, familia, altura media e habitat.
+     */
     public static Bird createBird(String line){
         String[] attributes = line.split(",");
         int id = Integer.parseInt(attributes[0]);
         int size = Integer.parseInt(attributes[5]);
         boolean[] habitats = new boolean[6];
         for(int i = 0; i < 6; i++)
-        habitats[i] = attributes[i+6].equals( "1" )?  true : false;
+            habitats[i] = attributes[i+6].equals( "1" )?  true : false;
         return new Bird(id, attributes[1], attributes[2], attributes[3], attributes[4], size, habitats);
     }
+
+    
+    /**
+     * Metodo de entrada do menu principal do programa
+     */
     public static void mainMenu(Bird[] catalog){
-        System.out.println("Opcoes disponiveis\n1: Consultar aves no catalogo\n2: Fazer uma anotacao\n3: Consultar anotacoes\n4: Salvar no arquyivo Notes.txt localizado na mesma pasta do FontanaApp.java e sair");
+        System.out.println("Opcoes disponiveis\n1: Consultar aves no catalogo\n2: Fazer uma anotacao\n3: Consultar anotacoes\n4: Salvar no arquivo Notes.txt localizado na mesma pasta do FontanaApp.java e sair");
         int op = sc.nextInt();
 
         switch(op){
@@ -68,23 +80,35 @@ public class FontanaApp {
                 mainMenu(catalog);
         }
     }
+
+    /**
+     * 
+     */
     public static void noteQuery(Bird[] catalog) {
     }
+
+    /**
+     * Metodo que gera arquivo txt para anotacoes, caso ainda nao haja um.
+     */
     public static void initiateNotes(){
         String path = "Notes.txt";
         File notes = new File (path);
-        
+
         try{
-        if (!notes.exists()) {
-            notes.createNewFile();
-            System.out.println("Arquivo criado: " + notes.getName());
-        }
-        else System.out.println("Notes ja existe.");
+            if (!notes.exists()) {
+                notes.createNewFile();
+                System.out.println("Arquivo criado: " + notes.getName());
+            }
+            else System.out.println("Notes ja existe.");
         }
         catch(IOException e){
         }
-    
+
     }
+
+    /**
+     * Menu com parametros de entrada para anotacoes no arquivo "Notes.txt".
+     */
     public static void createNote(Bird[] catalog){
         int id, day, month, year;
         String local = new String();
@@ -92,26 +116,30 @@ public class FontanaApp {
         System.out.println("Identifique a Ave com o ID (1-188)");
         id = sc.nextInt();
         sc.nextLine();
-        
+
         System.out.println("Digite o Local");
         local = sc.nextLine();
-        
+
         System.out.println("Digite a Data");
         System.out.println("Dia");
         day = sc.nextInt();
         sc.nextLine();
-        
+
         System.out.println("Mes");
         month = sc.nextInt();
         sc.nextLine();
 
         System.out.println("Ano");
         year = sc.nextInt();
-    
+
         Note note  = new Note(catalog[id-1], local, day, month, year);
 
         arrayNotes(note, catalog);
     }
+
+    /**
+     * 
+     */
     public static void arrayNotes(Note note, Bird[] catalog) {
         Note[] newNotes = new Note[notes.length+1];
         for (int i = 0; i < notes.length; i++)
@@ -120,27 +148,35 @@ public class FontanaApp {
         notes = newNotes;
         mainMenu(catalog);
     }
+
+    /**
+     * Salva o arquivo txt e fecha o programa.
+     */
     public static void saveAndExit(){
         String path = "Notes.txt";
 
         try{
-        File add = new File(path);
-        FileWriter fw = new FileWriter(add, true);
-        BufferedWriter bw = new BufferedWriter(fw);
-        PrintWriter pw = new PrintWriter(bw);
-        
-        for (int i = 0; i < notes.length; i++)
-            pw.printf(notes[i].toString());
-        pw.close();
-        bw.close();
-        fw.close();
-        
+            File add = new File(path);
+            FileWriter fw = new FileWriter(add, true);
+            BufferedWriter bw = new BufferedWriter(fw);
+            PrintWriter pw = new PrintWriter(bw);
+
+            for (int i = 0; i < notes.length; i++)
+                pw.printf(notes[i].toString());
+            pw.close();
+            bw.close();
+            fw.close();
+
         }
         catch(IOException e){
         }
         sc.close();
         System.exit(0);
     }
+
+    /**
+     * Metodo de escolha (query) de outro metodo para pesquisa de item no catalogo ou retorno ao metodo de menu principal.
+     */
     public static void birdQueryMenu(Bird[] catalog) {
         System.out.println("Voce quer buscar uma ave por qual parametro?\n1: Nome cientifico\n2: Nome em portugues\n3: Nome em ingles\n4: Familia\n5: Tamanho em cm\n6: Habitat\n0: Voltar para o menu principal");
         int op = sc.nextInt();
@@ -159,6 +195,11 @@ public class FontanaApp {
             case 6: habitatFinder(catalog);
         }
     }
+
+    
+    /**
+     * 
+     */
     public static void sizeFinder(Bird[] catalog) {
         int size;
         System.out.println("Entre com o tamanho medio do passaro que voce quer pesquisar:\n(Aparecera passaros num raio de 2 cm do valor que voce escolher)");
@@ -170,6 +211,10 @@ public class FontanaApp {
         }
         mainMenu(catalog);
     }
+
+    /**
+     * 
+     */
     public static void familyFinder(Bird[] catalog) {
         String s = new String();
         System.out.println("Entre com o nome da familia do passaro que voce quer pesquisar:");
@@ -183,6 +228,10 @@ public class FontanaApp {
         }
         mainMenu(catalog);
     }
+
+    /**
+     * 
+     */
     public static void enNameFinder(Bird[] catalog) {
         String s = new String();
         System.out.println("Entre com o nome em ingles do passaro que voce quer pesquisar:");
@@ -196,6 +245,10 @@ public class FontanaApp {
         }
         mainMenu(catalog);
     }
+
+    /**
+     * 
+     */
     public static void ptNameFinder(Bird[] catalog) {
         String s = new String();
         System.out.println("Entre com o nome em portugues do passaro que voce quer pesquisar:");
@@ -209,10 +262,14 @@ public class FontanaApp {
         }
         mainMenu(catalog);
     }
+    
+    /**
+     * 
+     */
     public static void habitatFinder(Bird[] catalog) {
         System.out.println("voce quer buscar as aves de qual habitat?\n1: campo seco baixo;\n2: campo seco alto, campo “sujo”;\n3: campo alagado, campo umido, varzeas alagadas;\n4: campo com arores, arbustos ou arvoretas;\n5: banhado com espelho dagua;\n6: banhado com vegetacao alta, em geral palha ou gravata, sem espelho dagua;\n0: voltar ao menu principal");
         int op = sc.nextInt();
-        
+
         switch (op){
             case 0:
                 mainMenu(catalog);
@@ -240,6 +297,10 @@ public class FontanaApp {
                 habitatFinder(catalog);
         }
     }
+    
+    /**
+     * 
+     */
     public static void birdsHabitat6(Bird[] catalog) {
         for(int i = 0; i < catalog.length; i++){
             if(catalog[i].habitats[5])
@@ -247,6 +308,10 @@ public class FontanaApp {
         }
         mainMenu(catalog);
     }
+    
+    /**
+     * 
+     */
     public static void birdsHabitat5(Bird[] catalog) {
         for(int i = 0; i < catalog.length; i++){
             if(catalog[i].habitats[4])
@@ -254,6 +319,10 @@ public class FontanaApp {
         }
         mainMenu(catalog);
     }
+    
+    /**
+     * 
+     */
     public static void birdsHabitat4(Bird[] catalog) {
         for(int i = 0; i < catalog.length; i++){
             if(catalog[i].habitats[0])
@@ -261,6 +330,10 @@ public class FontanaApp {
         }
         mainMenu(catalog);
     }
+    
+    /**
+     * 
+     */
     public static void birdsHabitat3(Bird[] catalog) {
         for(int i = 0; i < catalog.length; i++){
             if(catalog[i].habitats[0])
@@ -268,6 +341,10 @@ public class FontanaApp {
         }
         mainMenu(catalog);
     }
+    
+    /**
+     * 
+     */
     public static void birdsHabitat2(Bird[] catalog) {
         for(int i = 0; i < catalog.length; i++){
             if(catalog[i].habitats[1])
@@ -275,6 +352,10 @@ public class FontanaApp {
         }
         mainMenu(catalog);
     }
+    
+    /**
+     * 
+     */
     public static void birdsHabitat1(Bird[] catalog) {
         for(int i = 0; i < catalog.length; i++){
             if(catalog[i].habitats[0])
@@ -282,6 +363,10 @@ public class FontanaApp {
         }
         mainMenu(catalog);
     }
+    
+    /**
+     * 
+     */
     public static void sciNameFinder(Bird[] catalog) {
         String s = new String();
         System.out.println("Entre com o nome cientifico do passaro que voce quer pesquisar:");
@@ -295,10 +380,14 @@ public class FontanaApp {
         }
         mainMenu(catalog);
     }
+    
+    /**
+     * Metodo main do programa
+     */
     public static void main(String[] args) throws IOException{
         Bird[] catalog = createCatalog();
         initiateNotes();
         System.out.println("Bem vindo ao FontanaApp\nPressione o numero correspondente a funcao desejada");
         mainMenu(catalog);
     }
-    }
+}

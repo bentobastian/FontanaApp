@@ -1,5 +1,6 @@
 
 /**
+ * Classe cria um objeto Note, com parametros desejados pelo ornitologo como a ave em questao, local e data
  * 
  *
  * @author bento.bastian@edu.pucrs.br
@@ -17,7 +18,10 @@ public class Note {
     int month;
     int year;
     int day;
-    
+
+    /**
+     * 
+     */
     public Note (Bird bird, String local, int day,int month,int year){
         this.bird = bird;
         this.local = local;
@@ -26,6 +30,10 @@ public class Note {
         this.day = day;
     }
 
+    
+    /**
+     * 
+     */
     public String toString(){
         return String.format("%sLocal: %s\nData: %d/%d/%d\n\n", bird.toString(), local, day, month, year);
     }

@@ -35,6 +35,9 @@ public class Bird {
     int size;
     boolean[] habitats;
 
+    /**
+     * Metodo de geracao do objeto Bird, com as caracteristicas associadas
+     */
     public Bird(int id, String sciName, String ptName, String enName, String family, int size, boolean[] habitats){
         this.id = id;
         this.sciName = sciName;
@@ -45,6 +48,9 @@ public class Bird {
         this.habitats = habitats;
     }
 
+    /**
+     * Metodo de formatacao da String s, organizando informacoes de uma linha do catalogo contendo nomenclaturas, familia, tamanho medio e habitats
+     */
     public String toString(){
         String s = String.format("ID: %d\nNome cientifico: %s\nNome em portugues: %s\nNome em ingles: %s\nPertence a Familia %s\nTamanho medio: %d cm\nHabitates:\n", id, sciName, ptName, enName, family, size);
         if (habitats[0])

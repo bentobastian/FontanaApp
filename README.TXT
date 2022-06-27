@@ -9,12 +9,12 @@ FontanaApp
 
 PURPOSE OF PROJECT: 
 Providenciar um programa para pesquisa de aves em um
-catálogo de 188 espécies diferentes com suas respectivas características, 
+catalogo de 188 especies diferentes com suas respectivas caracteristicas, 
 como diferentes nomenclaturas, altura e habitats.
-O programa também possibilita a geração de notas sobre a observação de 
-aves catalogadas, podendo-se adicionar data e local de observação. Após
-a entrada do usuário, o programa salva as informações da observação em 
-um único arquivo de texto.
+O programa tambem possibilita a geracao de notas sobre a observacao de 
+aves catalogadas, podendo-se adicionar data e local de observacao. Apos
+a entrada do usuario, o programa salva as informacoes da observacao em 
+um unico arquivo de texto.
 
 VERSION or DATE: 
 20220616
@@ -29,10 +29,10 @@ lucas.sasada@edu.pucrs.br
 vicente.ferreira@edu.pucrs.br
 
 USER INSTRUCTIONS:
-O usuário deve executar FontanaApp.java por via de terminal e seguir os 
-passos instruidos no menu em texto. (O usuário deve possuir Java instalado)
-O menu mostrará as opções ao usuário, distinguindo-as por números.
-O usuário deve dar entrada no número da opção desejada correspondente.
-Em certas instâncias - como a pesquisa de itens do catálogo por palavra chave -
-o programa mostrará um campo para que o usuário possa dar entrada no termo
+O usuario deve executar FontanaApp.java por via de terminal e seguir os 
+passos instruidos no menu em texto. (O usuario deve possuir Java instalado)
+O menu mostrara as opcoes ao usuario, distinguindo-as por numeros.
+O usuario deve dar entrada no numero da opcao desejada correspondente.
+Em certas instancias - como a pesquisa de itens do catalogo por palavra chave -
+o programa mostrara um campo para que o usuario possa dar entrada no termo
 requisitado.
